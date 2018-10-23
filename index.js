@@ -14,4 +14,4 @@ bot.on("message", async message =>{
             .setDescription(message.content.slice(6));
     }
         });
-    bot.login("NDcyMDAzODkxMjE5NzkxODcz.DrCO4A.9cSmfBQ7CMkJ-rfLkF_EXYEBgAcno");
+    bot.login("process.env.token");
